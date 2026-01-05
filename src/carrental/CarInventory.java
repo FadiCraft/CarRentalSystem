@@ -17,7 +17,7 @@ public class CarInventory {
         System.out.println("+ Added: " + car.getCarInfo());
     }
 
-    // Remove car
+    // Remove car 
     public boolean removeCar(String plateNumber) {
         Car carToRemove = findCarByPlate(plateNumber);
         if (carToRemove != null) {
