@@ -47,7 +47,7 @@ public abstract class Car implements Rentable {
 
     @Override
     public double calculateRentalFee(int days) {
-        return dailyPrice * days;  // التنفيذ الأساسي
+        return dailyPrice * days;  //  
     }
 
     // Getters
