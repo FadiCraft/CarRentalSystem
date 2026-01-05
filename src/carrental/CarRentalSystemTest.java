@@ -44,7 +44,7 @@ class CarRentalSystemTest {
         
         assertEquals(expected, actual, 0.01);
     }
-    
+       
     @Test
     void testGasCarPrice() {
         GasCar toyota = new GasCar("34TOY456", "Toyota", "Corolla", 2022, 300, "Gasoline", 6.5);

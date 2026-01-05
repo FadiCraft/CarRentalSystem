@@ -29,10 +29,10 @@ public class Rental {
             System.out.println("💰 Total: " + totalFee + " TL");
         }
     }
-
+ 
     public void returnCar() {
         if (isActive) {
-            car.returnVehicle(); 
+            car.returnVehicle();  
             this.isActive = false;
             
             // Check for late return

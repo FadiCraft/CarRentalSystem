@@ -8,8 +8,8 @@ public class Payment {
     private double amount; 
     private LocalDateTime paymentDate;
     private String paymentMethod; // Cash, Card 
-    private boolean isPaid;
-
+    private boolean isPaid; 
+ 
     public Payment(Rental rental, String paymentMethod) {
         this.id = "PAY" + System.currentTimeMillis() % 10000;
         this.rental = rental;

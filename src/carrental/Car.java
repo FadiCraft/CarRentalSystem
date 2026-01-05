@@ -49,7 +49,7 @@ public abstract class Car implements Rentable {
     public double calculateRentalFee(int days) {
         return dailyPrice * days;  //  
     }
-
+ 
     // Getters
     public String getId() { return id; }
     public String getPlateNumber() { return plateNumber; }
@@ -62,3 +62,5 @@ public abstract class Car implements Rentable {
         return brand + " " + model + " (" + year + ") - " + plateNumber;
     }
 }
+
+//Updated documentation

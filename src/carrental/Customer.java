@@ -9,7 +9,7 @@ public class Customer {
     private String phone;
     private String email;
     private List<Rental> rentalHistory;
-
+   
     public Customer(String name, String phone, String email) {
         this.id = "CUST" + System.currentTimeMillis() % 10000;
         this.name = name;

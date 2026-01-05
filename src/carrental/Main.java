@@ -12,7 +12,7 @@ public class Main {
             Car tesla = new ElectricCar("34ABC123", "Tesla", "Model 3", 2023, 500, 75, 8);
             Car toyota = new GasCar("34XYZ789", "Toyota", "Corolla", 2022, 300, "Gasoline", 6.5);
             Car bmw = new GasCar("34DEF456", "BMW", "320i", 2023, 700, "Gasoline", 8.0);
-             
+               
             inventory.addCar(tesla);
             inventory.addCar(toyota);
             inventory.addCar(bmw);
