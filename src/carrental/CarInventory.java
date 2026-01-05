@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 public class CarInventory {
     private ArrayList<Car> cars;
 
-    public CarInventory() {
+    public CarInventory() { 
         this.cars = new ArrayList<>();
     }
 
