@@ -10,7 +10,7 @@ public class ElectricCar extends Car {
         this.batteryCapacity = batteryCapacity;
         this.chargingTime = chargingTime;
     }
-
+ 
     @Override
     public double calculateRentalFee(int days) {
         double baseFee = getDailyPrice() * days;
