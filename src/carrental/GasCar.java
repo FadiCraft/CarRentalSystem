@@ -25,7 +25,7 @@ public class GasCar extends Car {
 
     public String getFuelType() { return fuelType; }
     public double getFuelConsumption() { return fuelConsumption; }
-    
+     
     @Override
     public String toString() {
         return getCarInfo() + " [" + fuelType + " - " + fuelConsumption + "L/100km]";

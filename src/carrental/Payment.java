@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 public class Payment {
     private String id;
     private Rental rental;
-    private double amount;
+    private double amount; 
     private LocalDateTime paymentDate;
     private String paymentMethod; // Cash, Card 
     private boolean isPaid;
