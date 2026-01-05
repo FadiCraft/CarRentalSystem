@@ -13,7 +13,7 @@ class CarRentalSystemTest {
         assertEquals("Toyota", car.getBrand());
         assertEquals(2022, car.getYear());
         assertTrue(car.isAvailable());
-    }
+    } 
     
     @Test
     void testElectricCarCreation() {
