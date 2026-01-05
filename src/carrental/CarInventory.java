@@ -11,7 +11,7 @@ public class CarInventory {
         this.cars = new ArrayList<>();
     }
 
-    // Add car
+    // Add car 
     public void addCar(Car car) {
         cars.add(car);
         System.out.println("+ Added: " + car.getCarInfo());
