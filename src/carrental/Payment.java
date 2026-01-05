@@ -7,7 +7,7 @@ public class Payment {
     private Rental rental;
     private double amount;
     private LocalDateTime paymentDate;
-    private String paymentMethod; // Cash, Card
+    private String paymentMethod; // Cash, Card 
     private boolean isPaid;
 
     public Payment(Rental rental, String paymentMethod) {
