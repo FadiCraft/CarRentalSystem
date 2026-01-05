@@ -16,6 +16,7 @@ public class Main {
             inventory.addCar(tesla);
             inventory.addCar(toyota);
             inventory.addCar(bmw);
+            
 
             // 3. Show all cars
             inventory.listAllCars();
