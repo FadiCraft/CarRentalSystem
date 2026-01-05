@@ -52,7 +52,7 @@ public class Rental {
             System.out.println("📄 Damage report added");
         }
     }
-
+ 
     // Getters
     public String getId() { return id; }
     public Car getCar() { return car; }
